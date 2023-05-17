@@ -44,11 +44,11 @@ v2g.py converts a video file into a GIF. You can specify the dots per inch (dpi)
 
 ## GifSplitter.py
 
-GifSplitter.py splits a GIF file into individual PNG frames and saves them in a directory. The output directory will have the same name as the original file with "_frames" appended.
+GifSplitter.py splits a GIF file into individual PNG frames and saves them in a directory. The output directory will have the same name as the original file with "--frames" appended.
 
 ### Attributes
 - `fileIn`: The path to the GIF file to be processed.
-- `fileOut`: The directory to save the frames (default: `<original_filename>_frames`).
+- `fileOut`: The directory to save the frames (default: `<original_filename>--frames`).
 
 ## ResizePNGs.py
 
@@ -57,7 +57,17 @@ ResizePNGs.py resizes all the PNG files within a directory and saves them in a n
 ### Attributes
 - `fileIn`: The directory containing the PNG files to be processed.
 - `resolution`: The resolution of the output PNG files (default: 300x300).
-- `fileOut`: The directory to save the output PNG files (default: `<original_filename>_resized_frames`).
+- `fileOut`: The directory to save the output PNG files (default: `<original_filename>_resized--frames`).
+
+## CropPNGs.py
+
+CropPNGs.py crops all the PNG files within a directory and saves them in a new directory. You can specify the resolution and center coordinates of the cropped PNG files.
+
+### Attributes
+- `fileIn`: The directory containing the PNG files to be processed.
+- `resolution`: The resolution of the output PNG files (default: 300x300).
+- `center`: The center of the crop (default: 960x540).
+- `fileOut`: The directory to save the output PNG files (default: `<original_filename>_cropped--frames`).
 
 ## ColorReplacer.py
 

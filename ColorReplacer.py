@@ -38,8 +38,8 @@ def replace_color_with_transparency(fileIn, color=(0, 0, 0), color_similarity=0)
 
 # Test the function
 if __name__ == "__main__":
-    fileIn = "GlitchNado--frames"
-    color = (0, 0, 0)
+    fileIn = "Crown_cropped--frames"
+    color = (177,188,179)
     # Set this to 0 to only replace the exact color
     color_similarity = 50
     

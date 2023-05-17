@@ -35,7 +35,7 @@ def create_gif(fileIn, fileOut, fps=30, loop=0, start=0, end=-1):
     print(f'GIF saved as {fileOut}')
 
 if __name__ == '__main__':
-    fileIn = 'GlitchNado_transparent--frames'
+    fileIn = 'Crown_cropped_transparent--frames'
     origin = fileIn.split('--')[0]
     fileOut = origin + '.gif'
     

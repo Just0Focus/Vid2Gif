@@ -20,5 +20,5 @@ def gif_splitter(fileIn, fileOut=None):
 
 # Example usage
 if __name__ == '__main__':
-    fileIn = 'GlitchNado.gif'
+    fileIn = 'Crown.gif'
     gif_splitter(fileIn)
