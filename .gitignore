@@ -1,0 +1,10 @@
+
+*.pyc
+
+
+__pycache__/*
+DONE/*
+note/*
+__pycache__/Crop.cpython-311.pyc
+__pycache__/FrameCrop.cpython-311.pyc
+__pycache__/loading.cpython-311.pyc
